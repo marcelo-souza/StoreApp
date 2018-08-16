@@ -1,0 +1,14 @@
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/bin/Debug/netcoreapp2.1/StoreApp.API.deps.json
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/bin/Debug/netcoreapp2.1/StoreApp.API.runtimeconfig.json
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/bin/Debug/netcoreapp2.1/StoreApp.API.runtimeconfig.dev.json
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/bin/Debug/netcoreapp2.1/StoreApp.API.dll
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/bin/Debug/netcoreapp2.1/StoreApp.API.pdb
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/obj/Debug/netcoreapp2.1/StoreApp.API.csprojAssemblyReference.cache
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/obj/Debug/netcoreapp2.1/StoreApp.API.csproj.CoreCompileInputs.cache
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/obj/Debug/netcoreapp2.1/StoreApp.API.RazorAssemblyInfo.cache
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/obj/Debug/netcoreapp2.1/StoreApp.API.RazorAssemblyInfo.cs
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/obj/Debug/netcoreapp2.1/StoreApp.API.AssemblyInfoInputs.cache
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/obj/Debug/netcoreapp2.1/StoreApp.API.AssemblyInfo.cs
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/obj/Debug/netcoreapp2.1/StoreApp.API.RazorTargetAssemblyInfo.cache
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/obj/Debug/netcoreapp2.1/StoreApp.API.dll
+/home/msssouza/Documents/Project/StoreApp/StoreApp.API/obj/Debug/netcoreapp2.1/StoreApp.API.pdb
