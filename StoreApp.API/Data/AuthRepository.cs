@@ -11,12 +11,21 @@ namespace StoreApp.API.Data
         public AuthRepository(DataContext context)
         {
             db = context;
-
         }
 
-        public Task<User> Login(string username, string password)
+        public async Task<User> Login(string username, string password)
         {
-            throw new System.NotImplementedException();
+            User user = await db.Users.FirstOrDefaultAsync(x =>x.Username==username);
+
+            using(var hmac = new System.Security.Cryptography.HMACSHA512(user.PasswordSalt))
+            {
+                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+                for (int i=0; i < computedHash.Length; i++ ){
+                    if (computedHash[i] != user.PasswordHash[i]) return null;
+                }
+            }
+            return user;
+
         }
 
         public async Task<User> Register(User user, string password)
@@ -39,12 +48,14 @@ namespace StoreApp.API.Data
                 passwordSalt=hmac.Key;
                 passwordHash=hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
             }
-            
         }
 
-        public Task<bool> UserExists(string username)
+        public async Task<bool> UserExists(string username)
         {
-            throw new System.NotImplementedException();
+            if (await db.Users.AnyAsync(x => x.Username==username))  
+                return true;
+
+            return false;
         }
     }
 }
